@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "/"
 languageCode = "en-us"
-title = "Portfolio for Ted Laderas, PhD"
+title = "Sakiko's Portfolio"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,8 +19,8 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Ted Laderas"
-  description = "Portfolio/CV for Ted Laderas"
+  name = "Sakiko Okayama"
+  description = "Portfolio for Sakiko Okayama"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -39,8 +39,8 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Ted Laderas, PhD"
-    subtitle = "Data Scientist, Educator, and Collaborator"
+    title = "Sakiko Okayama"
+    subtitle = "Psychology Student"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -75,8 +75,8 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Ted Laderas, PhD"
-    subtitle = "Portfolio of Data Science and Visualization Projects"
+    title = "Sakiko Okayama"
+    subtitle = "Portfolio of Developmental Psychology Research Internship"
     buttonText = "Curriculum Vitae"
     url = "cv/"
 
@@ -86,7 +86,7 @@ disqusShortname = ""
     enable = true
     # Display your showcases here.
     [[params.tiles.showcase]]
-      title = "Project: Understanding Coffee Scores"
+      title = "Project: Richmond Lab Research"
       subtitle = "Does processing method influence overall score?"
       image = "projects/coffee.png"
       url = "projects/coffee"
@@ -122,7 +122,7 @@ disqusShortname = ""
       url = "https://r-bootcamp.netlify.app"
 
     [[params.tiles.showcase]]
-      title = "Workshop: A gRadual Introduction to Shiny"
+      title = "Course: "
       subtitle = "A short workshop introducing basic shiny programming concepts"
       #image = "projects/r-bootcamp.jpg"
       url = "https://laderast.github.io/gradual_shiny/"
@@ -172,48 +172,48 @@ disqusShortname = ""
     # You can add multiple emails, phone numbers, or addresses
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
-    title = "Email"
-    email = "tedladeras (at) gmail.com"
+    title = ""
+    email = ""
 
     [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    title = ""
+    phone = ""
 
     [[params.contact.address]]
-    title = "Address"
-    street = "3181 SW Sam Jackson Road"
-    city = "Portland, OR 97212"
-    country = "USA"
+    title = ""
+    street = ""
+    city = ""
+    country = ""
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Ted Laderas"
+    copyright = "Sakiko Okayama"
 
     # Uses font awesome icons
     [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com/tladeras"
-      label = "Twitter"
+      icon = ""
+      url= ""
+      label = ""
 
     #[[params.footer.social]]
-     # icon = "fa-facebook"
-      #url= "https://www.facebook.com"
-      #label = "Facebook"
+     # icon = ""
+      #url= ""
+      #label = ""
 
     #[[params.footer.social]]
-     # icon = "fa-instagram"
-      #url= "https://www.instagram.com"
-      #label = "Instagram"
+     # icon = ""
+      #url= ""
+      #label = ""
     
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com/laderast"
+      url= "https://www.github.com/sakikookayama"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com/in/ted-laderas-0714a92/"
+      url= ""
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
